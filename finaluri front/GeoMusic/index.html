@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+
+    <!-- -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GeoMusic</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+
+<body>
+
+    <!--  -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <h1 class="logo">
+                🎵 GeoMusic
+            </h1>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#artists">Artists</a></li>
+
+                <li><a href="#genres">Genres</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <!--  -->
+
+            <div class="burger">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h2>
+                Discover Georgian Music
+            </h2>
+
+            <p>
+
+                Discover talented Georgian artists, explore different music genres and learn more about the modern Georgian music scene.
+
+            </p>
+
+            <a href="#artists" class="btn">
+
+                Explore Artists
+
+            </a>
+
+        </div>
+
+    </section>
+    
+        <!-- =ARTISTEBI-->
+
+    <section class="artists" id="artists">
+
+        <h2 class="section-title">
+            Featured Georgian Artists
+        </h2>
+
+        <p class="section-text">
+            Learn more about some of the most popular Georgian artists.
+        </p>
+
+        <!-- Search Artist -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search artist...">
+
+        </div>
+
+        <!-- Artistebi -->
+
+        <div class="artist-container">
+
+            <!--  1 -->
+
+            <div class="artist-card">
+
+                <img src="images/erekle.jpg" alt="erekle Deisadze">
+
+                <h3>deisadze</h3>
+
+                <p class="genre">Folk / Rock</p>
+
+                <p>
+                    Georgian musician and songwriter known for his unique lyrics and alternative sound.
+                </p>
+
+                <button>Learn More</button>
+
+            </div>
+
+            <!--  2 -->
+
+            <div class="artist-card">
+
+                <img src="images/nika.jpg" alt="nika machaidze">
+
+                <h3>nikakoi</h3>
+
+                <p class="genre">Alternative Rock</p>
+
+                <p>
+                    Electronic music producer creating experimental and ambient music.
+                </p>
+
+                <button>Learn More</button>
+
+            </div>
+
+            <!--  3 -->
+
+            <div class="artist-card">
+
+                <img src="images/vakispark.jpg" alt="vakis parki">
+
+                <h3>vakis parki</h3>
+
+                <p class="genre">Rock</p>
+
+                <p>
+                    Indie rock band known for emotional songs and old Georgian sound.
+                </p>
+
+                <button>Learn More</button>
+
+            </div>
+
+            <!--  4 -->
+
+            <div class="artist-card">
+
+                <img src="images/yanamaste.jpg" alt="yanamaste">
+
+                <h3>yanamaste</h3>
+
+                <p class="genre">Electronic</p>
+
+                <p>
+                    Modern Georgian project combining electronic and alternative music.
+                </p>
+
+                <button>Learn More</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--  -->
+
+    <section class="genres" id="genres">
+
+        <h2 class="section-title">
+
+            Popular Genres
+
+        </h2>
+
+        <div class="genre-container">
+
+            <div class="genre-box">
+                🎸
+                <h3>Rock</h3>
+            </div>
+
+            <div class="genre-box">
+                🎤
+                <h3>Pop</h3>
+            </div>
+
+            <div class="genre-box">
+                🎧
+                <h3>Electronic</h3>
+            </div>
+
+            <div class="genre-box">
+                🎻
+                <h3>Folk</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- = -->
+
+<section class="about" id="about">
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <h2>About GeoMusic</h2>
+
+            <p>
+                GeoMusic is a platform created to help people discover modern Georgian artists.
+                Many talented musicians are not well known outside of their fan communities,
+                and our goal is to bring them together in one place.
+            </p>
+
+            <p>
+                Users can explore artists, discover different genres and learn more about the
+                modern Georgian music scene.
+            </p>
+
+        </div>
+
+        <div class="about-image">
+
+            <img src="images/about.jpg" alt="Georgian Music">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ც-->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <p class="section-text">
+        Have a suggestion or want to recommend a Georgian artist?
+    </p>
+
+    <form class="contact-form">
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+
+    </form>
+
+</section>
+
+
+
+<section class="latest">
+
+    <h2 class="section-title">Latest Artists (API)</h2>
+
+    <div id="latestContainer" class="artist-container">
+
+    </div>
+
+</section>
+
+<button id="scrollTopBtn">↑</button>
+
+<!-- -->
+
+<footer>
+
+    <h2>🎵 GeoMusic</h2>
+
+    <p>
+        Discover Georgian artists in one place.
+    </p>
+
+    <p>
+        © 2026 GeoMusic | Front-End Final Project
+    </p>
+
+</footer>
+
+
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
+<!-- -->
+

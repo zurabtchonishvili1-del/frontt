@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Mgzavrebi",
+    "genre": "Folk / Rock",
+    "desc": "One of the most famous Georgian bands mixing folk and modern music."
+  },
+  {
+    "name": "Erekle Deisadze",
+    "genre": "Alternative",
+    "desc": "Georgian artist known for unique lyrics and experimental style."
+  },
+  {
+    "name": "Nikakoi",
+    "genre": "Electronic",
+    "desc": "Electronic music producer with ambient and experimental sound."
+  },
+  {
+    "name": "Yanamaste",
+    "genre": "Electronic / Techno",
+    "desc": "Modern Georgian electronic DJ and producer."
+  }
+]
